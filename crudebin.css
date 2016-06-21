@@ -1,0 +1,102 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.clear{
+    clear:both;
+}
+
+#headerDiv{
+    width:100%;
+    height:40px;
+    background-color:lightgrey;
+}
+
+#CodePlayerLabel{
+    position:relative;
+    bottom:10px;
+    left:10px;
+    font-family: helvetica, sans-serif;
+    float:left;
+}
+
+#buttonContainer{
+    margin: 0 auto;
+    padding-top: 3px;
+    text-align: center;
+    width: 408px;
+}
+
+.yummyButton{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    float: left;
+    font-size: 12px;
+    padding: 10px;
+    margin:0 auto;
+    margin-right:2px;
+    text-align: center;
+    text-decoration: none;
+    width:100px;
+}
+
+/*
+.yummyButton:hover{
+    background-color:cyan;
+}
+*/
+
+.yummyActiveButton{
+    background-color:red;
+    
+}
+
+.yummyInactiveButton{
+    background-color:#008CBA;
+}
+
+.highlightedYummyButton{
+    background-color:cyan;
+}
+
+#containerPanel{
+    bottom: 19px;
+    font-family: Consolas;
+    font-size: 12px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.panel{
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 0;
+    width: 24.9%;
+    border-right: 1px solid black;
+}
+
+.codeInput{
+    width:100%;
+    height:100%;
+}
+
+
+#htmlPanel{
+
+}
+
+#cssPanel{
+    display:none;
+}
+
+#javascriptPanel{
+    display:none;
+}
+
+#outputPanel{
+
+}

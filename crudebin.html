@@ -1,0 +1,40 @@
+<html>
+
+    <head>
+        <title>CrudeBin :p</title>
+        <link rel="stylesheet" type="text/css" href="crudebin.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="headerDiv">
+            <h3 id="CodePlayerLabel">CrudeBin</h3>
+            <div id="buttonContainer">      
+                <button id="htmlButton" class="yummyButton yummyActiveButton">HTML</button>
+                <button id="cssButton" class="yummyButton yummyInactiveButton">CSS</button>
+                <button id="javascriptButton" class="yummyButton yummyInactiveButton">JavaScript</button>
+                <button id="outputButton" class="yummyButton yummyActiveButton">Output</button>
+            </div>
+        </div>
+    
+        <div class="clear"></div>
+        
+        <div id="containerPanel">
+            <div id="htmlPanel" class="panel">
+                <textarea id="htmlText" class="codeInput"></textarea>
+            </div>
+            <div id="cssPanel" class="panel">
+                <textarea id="cssText" class="codeInput"></textarea>
+            </div>
+            <div id="javascriptPanel" class="panel">
+                <textarea id="javascriptText" class="codeInput"></textarea>
+            </div>
+            <iframe id="outputPanel" class="panel">
+             
+            </iframe>
+        </div>
+
+        <script type="text/javascript" src="crudebin.js"></script>
+        
+    </body>
+</html>
